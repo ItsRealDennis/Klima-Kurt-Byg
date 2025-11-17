@@ -122,11 +122,12 @@ export default function AboutPage() {
             <AnimatedSection className="relative lg:order-2">
               <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/Klimakurt.png"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&q=75&auto=format&fit=crop"
                   alt="Klima Kurt - Bæredygtig Byggeri"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
+                  quality={75}
                 />
               </div>
               {/* Decorative element */}
