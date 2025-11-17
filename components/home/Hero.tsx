@@ -27,12 +27,13 @@ export default function Hero() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-earth-900/40 via-earth-900/20 to-sand-50 z-10" />
         <Image
-          src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2831&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=1080&q=75&auto=format&fit=crop"
           alt="Modern sustainable construction"
           fill
           priority
           className="object-cover"
           sizes="100vw"
+          quality={75}
         />
       </motion.div>
 
@@ -61,7 +62,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <motion.h1
-            className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-white mb-6 leading-tight"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-white mb-4 sm:mb-6 leading-tight px-4"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
@@ -72,7 +73,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl text-sand-100 max-w-3xl mx-auto mb-12 leading-relaxed"
+            className="text-lg sm:text-xl md:text-2xl text-sand-100 max-w-3xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}

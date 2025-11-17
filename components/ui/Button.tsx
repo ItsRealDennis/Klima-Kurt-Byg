@@ -21,7 +21,7 @@ export default function Button({
   className = "",
 }: ButtonProps) {
   const baseClasses =
-    "inline-flex items-center justify-center px-8 py-4 rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2";
+    "inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2";
 
   const variants = {
     primary:

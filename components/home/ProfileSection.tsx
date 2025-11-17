@@ -8,14 +8,14 @@ import { staggerContainer, staggerItem } from "@/lib/animations";
 
 export default function ProfileSection() {
   return (
-    <section className="py-24 lg:py-32 bg-sand-50">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-16 sm:py-24 lg:py-32 bg-sand-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image */}
           <AnimatedSection className="relative">
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <ParallaxImage
-                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=1000&q=75&auto=format&fit=crop"
                 alt="Construction team working on sustainable building"
                 className="w-full h-full"
               />

@@ -11,26 +11,26 @@ const projects = [
     title: "Energivenlig renovering",
     description:
       "Udskiftning af gamle materialer med moderne, isolerede og energivenlige løsninger",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2940&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=450&q=75&auto=format&fit=crop",
   },
   {
     title: "Nybyg med naturvenlige materialer",
     description:
       "Byggeri hvor hovedfokus var på lav CO2 påvirkning og holdbare materialer",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2953&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=450&q=75&auto=format&fit=crop",
   },
   {
     title: "Modernisering af ældre bygning",
     description:
       "Komplet opdatering hvor bæredygtighed og moderne funktionalitet blev kombineret",
-    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2940&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&h=450&q=75&auto=format&fit=crop",
   },
 ];
 
 export default function ProjectsPreview() {
   return (
-    <section className="py-24 lg:py-32 bg-sand-50">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-16 sm:py-24 lg:py-32 bg-sand-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <motion.div
           variants={staggerContainer}
           initial="hidden"

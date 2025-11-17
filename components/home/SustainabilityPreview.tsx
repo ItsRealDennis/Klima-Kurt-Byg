@@ -23,8 +23,8 @@ const features = [
 
 export default function SustainabilityPreview() {
   return (
-    <section className="py-24 lg:py-32 bg-gradient-to-br from-sage-50 to-sand-100">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-16 sm:py-24 lg:py-32 bg-gradient-to-br from-sage-50 to-sand-100">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Content - Left side on desktop */}
           <motion.div
@@ -103,7 +103,7 @@ export default function SustainabilityPreview() {
           <AnimatedSection className="relative lg:order-2">
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <ParallaxImage
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2940&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=1000&q=75&auto=format&fit=crop"
                 alt="Sustainable building materials and construction"
                 className="w-full h-full"
               />
