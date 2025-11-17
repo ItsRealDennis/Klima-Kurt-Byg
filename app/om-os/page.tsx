@@ -167,10 +167,10 @@ export default function AboutPage() {
                   holdbart og ansvarligt. Gennem årene har han udviklet metoder der
                   kombinerer traditionelt håndværk med innovative, miljøvenlige løsninger.
                 </p>
-                <p>
-                  "Jeg tror på at vi kan bygge fremtidens huse uden at belaste
+                <p className="italic border-l-4 border-sage-600 pl-6">
+                  &ldquo;Jeg tror på at vi kan bygge fremtidens huse uden at belaste
                   fremtidens miljø. Det handler om at træffe de rigtige valg fra
-                  starten." - Klima Kurt
+                  starten.&rdquo; - Klima Kurt
                 </p>
               </motion.div>
             </motion.div>
